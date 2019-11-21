@@ -256,6 +256,27 @@
     <Reference Include="Google.VersionHandlerImpl_v1.2.122.0">
       <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.122.0.dll</HintPath>
     </Reference>
+    <Reference Include="Mapbox.Json">
+      <HintPath>Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.Geometry">
+      <HintPath>Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.IO.Compression">
+      <HintPath>Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="MapboxAccountsUnity">
+      <HintPath>Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.VectorTileReader">
+      <HintPath>Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.PbfReader">
+      <HintPath>Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.ExtensionMethods">
+      <HintPath>Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+    </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.2.3f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
     </Reference>
@@ -627,7 +648,27 @@
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\TransparentShadow.shader" />
     <None Include="Assets\GoogleARCore\Examples\ComputerVision\Materials\EdgeDetectionBackground.shader" />
     <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />
+    <None Include="Assets\Mapbox\Core\Plugins\Android\UniAndroidPermission\AndroidManifest-uniRP.xml" />
+    <None Include="Assets\Mapbox\Core\Plugins\link.xml" />
+    <None Include="Assets\Mapbox\Examples\2_AstronautGame\AstronautGame\Astronaut\ProjectorLight.shader" />
+    <None Include="Assets\Mapbox\Examples\2_AstronautGame\AstronautGame\Building\CharacterBuildingShader.shader" />
+    <None Include="Assets\Mapbox\Fonts\OpenSansLic.txt" />
+    <None Include="Assets\Mapbox\README.txt" />
+    <None Include="Assets\Mapbox\Shaders\MapboxStyles.shader" />
+    <None Include="Assets\Mapbox\Shaders\MapboxStylesPerRenderer.shader" />
+    <None Include="Assets\Mapbox\Shaders\RasterWithTransparencyShader.shader" />
+    <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\Helsinki.txt" />
+    <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\LocationProviderAndroidNative-2.txt" />
+    <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\LocationProviderAndroidNative.txt" />
+    <None Include="Assets\Mapbox\Unity\Location\ExampleGpsTraces\LocationProviderUnity.txt" />
+    <None Include="Assets\Mapbox\link.xml" />
+    <None Include="Assets\MapboxAR\Examples\ARTabletop\Shaders\ClipBox\Clip_Box.shader" />
+    <None Include="Assets\MapboxAR\Examples\ARTabletop\Shaders\ClipBox\LICENSE.txt" />
+    <None Include="Assets\MapboxAR\Examples\ARTabletop\Shaders\Clip_MapBoxStylesPerRenderer.shader" />
+    <None Include="Assets\MapboxAR\Examples\ARTabletop\Shaders\Clip_MapboxStyles.shader" />
+    <None Include="Assets\MapboxAR\link.xml" />
     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.122.0.txt" />
+    <None Include="Assets\Resources\Mapbox\MapboxConfiguration.txt" />
     <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\Common\ExtractChannel.shader" />
     <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\Common\FillColor.shader" />
     <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\Common\ReadPackedData.shader" />
@@ -824,6 +865,15 @@
     <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
     <None Include="Assets\ShaderForge\Readme.txt" />
     <None Include="Assets\Shaders\ARPostEffect.shader" />
+    <None Include="Assets\UnityARInterface\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
+    <None Include="Assets\UnityARInterface\Examples\Common\Shaders\MobileARShadow.shader" />
+    <None Include="Assets\UnityARInterface\Examples\Common\Shaders\MobileOcclusion.shader" />
+    <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
+    <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
+    <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileARShadow.shader" />
+    <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileOcclusion.shader" />
+    <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+    <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
