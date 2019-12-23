@@ -21,6 +21,7 @@
         /// </summary>
         public Camera FirstPersonCamera;
 
+        /*
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a vertical plane.
         /// </summary>
@@ -30,6 +31,7 @@
         /// A prefab to place when a raycast from a user touch hits a horizontal plane.
         /// </summary>
         public GameObject GameObjectHorizontalPlanePrefab;
+        */
 
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a feature point.
@@ -101,7 +103,7 @@
                     if (hit.Trackable is FeaturePoint) {
                         prefab = GameObjectPointPrefab;
                     }
-                    else if (hit.Trackable is DetectedPlane) {
+                    /*else if (hit.Trackable is DetectedPlane) {
                         DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
                         if (detectedPlane.PlaneType == DetectedPlaneType.Vertical) {
                             prefab = GameObjectVerticalPlanePrefab;
@@ -112,10 +114,10 @@
                     }
                     else {
                         prefab = GameObjectHorizontalPlanePrefab;
-                    }
+                    }*/
 
                     // Instantiate prefab at the hit pose.
-                    var gameObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+                    //var gameObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
 
                     // Compensate for the hitPose rotation facing away from the raycast (i.e.
                     // camera).

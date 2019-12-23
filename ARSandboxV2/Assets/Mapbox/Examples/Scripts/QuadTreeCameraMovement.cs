@@ -37,8 +37,12 @@
 		{
 			if (null == _referenceCamera)
 			{
-				_referenceCamera = GetComponent<Camera>();
-				if (null == _referenceCamera) { Debug.LogErrorFormat("{0}: reference camera not set", this.GetType().Name); }
+				//_referenceCamera = GetComponent<Camera>();
+                //if (null == _referenceCamera) {
+                    _referenceCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
+                //}
+
+                if (null == _referenceCamera) { Debug.LogErrorFormat("{0}: reference camera not set", this.GetType().Name); }
 			}
 			_mapManager.OnInitialized += () =>
 			{
