@@ -76,12 +76,12 @@ MonoBehaviour:
   _initializeOnStart: 1
   _imagery:
     _layerProperty:
-      sourceType: 4
+      sourceType: 6
       sourceOptions:
         isActive: 1
         layerSource:
           Name: Streets
-          Id: mapbox.satellite
+          Id: mapbox://styles/wizvanmeter/ck5ez2u4t1scj1ili8j1c76m6
           Modified: 
           UserName: 
       rasterOptions:
@@ -98,11 +98,11 @@ MonoBehaviour:
           Id: mapbox.terrain-rgb
           Modified: 
           UserName: 
-      elevationLayerType: 1
+      elevationLayerType: 0
       requiredOptions:
         exaggerationFactor: 1
       colliderOptions:
-        addCollider: 0
+        addCollider: 1
       modificationOptions:
         sampleCount: 10
         useRelativeHeight: 0
@@ -178,11 +178,11 @@ MonoBehaviour:
           filters: []
           combinerType: 0
         extrusionOptions:
-          _selectedLayerName: 
+          _selectedLayerName: building
           extrusionType: 1
           extrusionGeometryType: 0
           propertyName: height
-          propertyDescription: 
+          propertyDescription: Number. Height of building or part of building.
           minimumHeight: 0
           maximumHeight: 1
           extrusionScaleFactor: 1
