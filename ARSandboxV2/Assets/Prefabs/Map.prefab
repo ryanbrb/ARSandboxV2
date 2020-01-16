@@ -72,7 +72,7 @@ MonoBehaviour:
       scalingType: 1
       unityTileSize: 100
     loadingTexture: {fileID: 2800000, guid: e2896a92727704803a9c422b043eae89, type: 3}
-    tileMaterial: {fileID: 2100000, guid: b9f23e9bce724fa4daac57ecded470b8, type: 2}
+    tileMaterial: {fileID: 2100000, guid: c115ccfd3c56643418154f64f7bb6c88, type: 2}
   _initializeOnStart: 1
   _imagery:
     _layerProperty:
@@ -166,7 +166,7 @@ MonoBehaviour:
           geometryType: 2
           layerName: building
           snapToTerrain: 1
-          combineMeshes: 0
+          combineMeshes: 1
         lineGeometryOptions:
           Width: 1
           MiterLimit: 0.2
@@ -189,7 +189,7 @@ MonoBehaviour:
         colliderOptions:
           colliderType: 0
         materialOptions:
-          style: 4
+          style: 1
           texturingType: 0
           materials:
           - Materials:
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c699b8e1864b4b248acb7a04ede9480, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _panSpeed: 1
+  _panSpeed: 20
   _zoomSpeed: 0.25
   _referenceCamera: {fileID: 0}
   _mapManager: {fileID: 8201126296950856180}
