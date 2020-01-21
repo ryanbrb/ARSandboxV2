@@ -1273,7 +1273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirstPersonCamera: {fileID: 1027055013}
-  GameObjectPointPrefab: {fileID: 8201126296950856072, guid: 6e7ff186f87e1974aaa354249c39bb6b,
+  GameObjectPointPrefab: {fileID: 333591302655240410, guid: 2f8c716fb162ed146854e69a283d9212,
     type: 3}
   planePosition: {x: 0, y: 0, z: 0}
   debugTextObject: {fileID: 1508111926}
