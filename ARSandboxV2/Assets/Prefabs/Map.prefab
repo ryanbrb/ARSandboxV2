@@ -47,8 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _options:
     locationOptions:
-      latitudeLongitude: 37.7648, -122.463
-      zoom: 10
+      latitudeLongitude: 34.0544, -118.2439
+      zoom: 17
     extentOptions:
       extentType: 1
       defaultExtents:
@@ -70,7 +70,7 @@ MonoBehaviour:
       snapMapToZero: 0
     scalingOptions:
       scalingType: 1
-      unityTileSize: 100
+      unityTileSize: 10
     loadingTexture: {fileID: 2800000, guid: e2896a92727704803a9c422b043eae89, type: 3}
     tileMaterial: {fileID: 2100000, guid: c115ccfd3c56643418154f64f7bb6c88, type: 2}
   _initializeOnStart: 1
@@ -104,7 +104,7 @@ MonoBehaviour:
       colliderOptions:
         addCollider: 1
       modificationOptions:
-        sampleCount: 10
+        sampleCount: 20
         useRelativeHeight: 0
         earthRadius: 1000
       unityLayerOptions:
@@ -141,12 +141,12 @@ MonoBehaviour:
         - water_label
         - waterway
         - waterway_label
-      _sourceType: 1
+      _sourceType: -2
       sourceOptions:
         isActive: 1
         layerSource:
           Name: Mapbox Streets
-          Id: mapbox.mapbox-streets-v7
+          Id: mapbox.mapbox-streets-v8
           Modified: 
           UserName: 
       useOptimizedStyle: 0
@@ -260,10 +260,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _map: {fileID: 8201126296950856180}
   _locationStrings:
-  - 37.7648, -122.463
-  - 37.8045, -122.2714
-  - 37.859, -122.4855
-  - 35.658611111111, 139.74555555556
+  - 33.7775, -118.1885
+  - 33.942912, -118.406829
+  - 34.1028, -118.33
+  - 34.1476, -118.1445
   _spawnScale: 1
   _markerPrefab: {fileID: 1839187062704024, guid: 9b5b1b761a8994c07affd0a05396633b,
     type: 3}
